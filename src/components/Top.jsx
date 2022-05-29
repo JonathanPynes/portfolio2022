@@ -41,12 +41,16 @@ const BackgroundContainer =  styled.div`
 height: 100vh;
 background: url(${Background}) rgba(0, 0, 0, 0.8);
 background-position: center;
-background-attachment: fixed;
+background-attachment: unset;
+background-repeat: no-repeat;
 background-blend-mode: multiply;
 display: flex;
 justify-content: center;
 align-items: center;
 
+@media (min-width: 800px) {
+background-attachment: fixed;
+}
   div{
     margin: 0 0 5rem 0;
     color: #E4E4E4;
