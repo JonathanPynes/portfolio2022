@@ -1,20 +1,20 @@
 import React from "react";
 import styled from "styled-components";
 import Background from '../assets/background.jpg'
-import LinkedIn from '../assets/linkedIn.svg'
-import Github from '../assets/github.svg'
+import LinkedIn from '../assets/LinkedIn.jsx'
+import Github from '../assets/Github.jsx'
 
 const Top = () => {
 
   const socialMedia = [
     {
       link: "https://www.linkedin.com/in/jonpynes",
-      src: LinkedIn,
+      src: < LinkedIn />,
       alt: "LinkedIn"
     },
     {
       link: "https://github.com/JonathanPynes",
-      src: Github,
+      src: < Github />,
       alt: "Github"
     },
   ]
@@ -28,7 +28,7 @@ const Top = () => {
         { socialMedia.map((soc) => {
                 return (
               <a href={soc.link} target="_blank" rel="noreferrer">
-                  <img src={soc.src} alt={soc.alt} />
+                  {soc.src} 
                 </a>
               )})}
         </Icons>
