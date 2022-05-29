@@ -10,7 +10,7 @@ const Projects = () => {
   const projects = [
     { 
       title: "Genesis House",
-      link: "https://www.linkedin.com/in/jonpynes",
+      link: "https://www.genesishouse.io/",
       src: genesisHouse,
     },
     {
