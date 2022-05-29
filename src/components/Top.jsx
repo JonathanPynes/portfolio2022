@@ -38,10 +38,10 @@ const Top = () => {
 }
 
 const BackgroundContainer =  styled.div`
+height: 100vh;
 background: url(${Background}) rgba(0, 0, 0, 0.8);
 background-position: center;
 background-attachment: fixed;
-height: 100vh;
 background-blend-mode: multiply;
 display: flex;
 justify-content: center;
