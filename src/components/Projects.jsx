@@ -20,7 +20,7 @@ const Projects = () => {
     },
     {
       title: "Todo",
-      link: "https://tender-pike-d60a95.netlify.app/home",
+      link: "https://tender-pike-d60a95.netlify.app",
       src: todo,
     },
     {
