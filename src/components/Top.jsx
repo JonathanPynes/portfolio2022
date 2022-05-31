@@ -60,11 +60,13 @@ background-attachment: fixed;
     align-items: center;
   }
   h1{
+    font-family: SFpro;
     margin: 0;
     font-size: clamp(2rem, 4vw + 1rem, 3rem);;
     letter-spacing: 0.5%;
   }
   p{
+    font-family: SFpro;
     margin: 14px 0 0  0;
     letter-spacing: 0.5%;
     font-size: clamp(0.5rem, 1.5vw + 0.5rem, 1.25rem);

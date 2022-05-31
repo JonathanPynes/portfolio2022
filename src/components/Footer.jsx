@@ -16,6 +16,9 @@ display: flex;
 justify-content: center;
 align-items: flex-end;
 font-size: clamp(0.5rem, 1.5vw + 0.5rem, 1.25rem);
+  div{
+    font-family: SFpro;
+  }
 `
 
 export default Footer;
