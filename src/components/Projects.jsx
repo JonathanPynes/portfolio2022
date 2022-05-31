@@ -50,6 +50,7 @@ align-items: center;
 flex-direction: column;
 
 h2{
+  font-family: SFpro;
   margin: 0;
   font-size: clamp(1.5rem, 4vw + 1rem, 2.5rem);
 }
@@ -73,6 +74,7 @@ img{
 }
 
 p{
+  font-family: SFpro;
   text-align: center;
   margin: 10px 0 0 0;
   font-size: clamp(0.5rem, 2vw + 0.5rem, 1.5rem);

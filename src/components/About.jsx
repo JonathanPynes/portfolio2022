@@ -28,16 +28,19 @@ margin: 100px 6% 0 6%;
 }
 
 h2{
+  font-family: SFpro;
   font-size: clamp(1.5rem, 4vw + 1rem, 2.5rem);
   margin: 0;
 }
 
 p{
+  font-family: SFpro;
   font-size: clamp(0.5rem, 2vw + 0.5rem, 1.5rem);
   margin: 16px 0 0 0;
 }
 
 button{
+  font-family: SFpro;
   cursor: pointer;
   margin: 20px 0 0 0;
   width: 180px;
