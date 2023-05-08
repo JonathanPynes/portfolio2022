@@ -23,6 +23,8 @@ const Top = () => {
     <BackgroundContainer>
       <div>
         <h1>Jon Pynes</h1>
+        <p>User Experience Design</p>
+        <p>&</p>
         <p>Frontend Engineer</p>
         <Icons>
         { socialMedia.map((soc) => {
