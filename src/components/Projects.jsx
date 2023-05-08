@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import reviews from "../assets/biBerkReviewsPage.png"
 import genesisHouse from "../assets/genesisHouse.png"
 import todo from "../assets/todo.png"
 import shift from "../assets/shift.png"
@@ -8,6 +9,11 @@ import zenith from "../assets/zenith.png"
 const Projects = () => {
 
   const projects = [
+    {
+      title: "biBerk",
+      link: "https://www.biberk.com/about-biberk/reviews",
+      src: reviews,
+    },
     { 
       title: "Genesis House",
       link: "https://www.genesishouse.io/",
