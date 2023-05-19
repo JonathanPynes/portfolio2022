@@ -59,10 +59,10 @@ h2{
   font-family: SFpro;
   margin: 0;
   font-size: clamp(1.5rem, 4vw + 1rem, 2.5rem);
+  align-self: flex-start;
 }
 
 @media (min-width: 500px) {
-  align-items: flex-start;
   margin: 200px 12% 0 12%;
 }
 `
