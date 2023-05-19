@@ -41,7 +41,7 @@ const Top = () => {
 
 const BackgroundContainer =  styled.div`
 height: 100vh;
-background: url(${Background}) rgba(0, 0, 0, 0.8);
+background: url(${Background}) rgba(0, 0, 0, 0.6);
 background-position: center;
 background-attachment: unset;
 background-repeat: no-repeat;
