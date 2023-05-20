@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Background from '../assets/background.jpg'
+import Background from '../assets/background.webp'
 import LinkedIn from '../assets/LinkedIn.jsx'
 import Github from '../assets/Github.jsx'
 
@@ -41,7 +41,7 @@ const Top = () => {
 
 const BackgroundContainer =  styled.div`
 height: 100vh;
-background: url(${Background}) rgba(0, 0, 0, 0.8);
+background: url(${Background}) rgba(0, 0, 0, 0.6);
 background-position: center;
 background-attachment: unset;
 background-repeat: no-repeat;
@@ -79,7 +79,7 @@ const Icons = styled.div`
 display: flex;
 flex-direction: row !important;
   a{
-    padding: 16px 8px;
+    padding: 16px 10px;
   }
 `
 

@@ -10,9 +10,9 @@ const btnClick = () => {
     <AboutContainer>
       <h2>About Me</h2>
       <p>
-      I am a skilled UX/UI designer and front-end engineer with almost 3 years of experience in developing user-centered web applications. 
-      Proficient in HTML, CSS, JavaScript, React.js, and other front-end technologies, as well as designing and conducting user research, usability testing, and wireframing. 
-      Kenzie Academy graduate with a GPA of 3.9 in UX Experience Design and Front-End Engineering.
+      I am a skilled UX/UI designer and Frontend engineer with 3 years of experience in developing user-centered web applications. 
+      Proficient in HTML, CSS, JavaScript, React.js, and other Frontend technologies, as well as designing and conducting user research, usability testing, and wireframing. 
+      Kenzie Academy graduate with a GPA of 3.9 in UX Experience Design and Frontend Engineering.
       </p>
       <button type="button" onClick={()=> btnClick()}>Download Resume</button>
     </AboutContainer>
