@@ -12,7 +12,7 @@ const btnClick = () => {
       <p>
       I am a results-driven sales leader with a solid track record of working hard to drive revenue growth and operational excellence. I have over 5 years of operational experience; including general and technology sales, team leadership, and project management.
       <br/>
-      I am an UX/UI Designer and Frontend Engineer with 3 years of experience in developing user-centered web applications. I am proficient in HTML, CSS, JavaScript, React.js, and have experience in other web technologies. I have designed and conducted user research, usability testing, and wireframing.
+      I am a UX/UI Designer and Frontend Engineer with 3 years of experience in developing user-centered web applications. I am proficient in HTML, CSS, JavaScript, React.js, and have experience in other web technologies. I have designed and conducted user research, usability testing, and wireframing.
       </p>
       <button type="button" onClick={()=> btnClick()}>Download Resume</button>
     </AboutContainer>
