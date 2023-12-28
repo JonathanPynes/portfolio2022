@@ -23,7 +23,7 @@ const Top = () => {
     <BackgroundContainer>
       <div>
         <h1>Jon Pynes</h1>
-        <p>User Experience Design</p>
+        <p>Sales, User Experience Designer</p>
         <p>&</p>
         <p>Frontend Engineer</p>
         <Icons>

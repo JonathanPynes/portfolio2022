@@ -4,15 +4,15 @@ import styled from "styled-components";
 const About = () => {
 
 const btnClick = () => {
-    window.location.href="https://docs.google.com/document/d/1CLb9xG7KFtWdQYAG6wAsCbLa4zGD9wIwCpikg7kWYgE/export?format=pdf";
+    window.location.href="https://docs.google.com/document/d/1eHDTnohyccAK4LfaAaiWma9k04NVqN5P/export?format=pdf";
 }
   return (
     <AboutContainer>
       <h2>About Me</h2>
       <p>
-      I am a skilled UX/UI designer and Frontend engineer with 3 years of experience in developing user-centered web applications. 
-      Proficient in HTML, CSS, JavaScript, React.js, and other Frontend technologies, as well as designing and conducting user research, usability testing, and wireframing. 
-      Kenzie Academy graduate with a GPA of 3.9 in UX Experience Design and Frontend Engineering.
+      I am a results-driven sales leader with a solid track record of working hard to drive revenue growth and operational excellence. I have over 5 years of operational experience; including general and technology sales, team leadership, and project management.
+      <br/>
+      I am an UX/UI Designer and Frontend Engineer with 3 years of experience in developing user-centered web applications. I am proficient in HTML, CSS, JavaScript, React.js, and have experience in other web technologies. I have designed and conducted user research, usability testing, and wireframing.
       </p>
       <button type="button" onClick={()=> btnClick()}>Download Resume</button>
     </AboutContainer>
